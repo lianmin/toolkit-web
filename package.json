@@ -1,5 +1,6 @@
 {
   "private": true,
+  "repository": "git@github.com:lianmin/toolkit-web.git",
   "author": "联民 <lianmin.slm@alibaba-inc.com>",
   "scripts": {
     "build": "max build",
@@ -14,11 +15,14 @@
     "@ant-design/icons": "^5.0.1",
     "@ant-design/pro-components": "^2.4.4",
     "@umijs/max": "^4.1.10",
-    "antd": "^5.4.0"
+    "ahooks": "^3.7.11",
+    "antd": "^5.4.0",
+    "md5": "^2.3.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.33",
     "@types/react-dom": "^18.0.11",
+    "babel-plugin-transform-jsx-condition": "^0.1.3",
     "husky": "^9",
     "lint-staged": "^13.2.0",
     "prettier": "^2.8.7",

@@ -20,15 +20,11 @@ export default defineConfig({
       component: './Home',
     },
     {
-      name: '权限演示',
-      path: '/access',
-      component: './Access',
-    },
-    {
-      name: ' CRUD 示例',
-      path: '/table',
-      component: './Table',
+      name: 'MD5',
+      path: '/md5',
+      component: './MD5',
     },
   ],
   npmClient: 'cnpm',
+  extraBabelPlugins: ['transform-jsx-condition'],
 });
